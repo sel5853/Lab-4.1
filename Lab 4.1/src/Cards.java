@@ -1,6 +1,8 @@
 
 public class Cards {
 
+	String[] rank = new ;
+	String[] 
 	public void card(String rank, String suit, int pointValue)
 	{
 		
@@ -26,5 +28,8 @@ public class Cards {
 		
 	}
 	
-	public String toString
+	public String toString()
+	{
+		
+	}
 }
