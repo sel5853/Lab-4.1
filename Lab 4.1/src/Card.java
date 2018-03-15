@@ -38,6 +38,6 @@ public class Cards {
 	
 	public String toString()
 	{
-		return ;
+		return card;
 	}
 }
