@@ -39,7 +39,8 @@ public class Deck {
 		}
 		else
 		{
-			
+			return deck.;
+			deck.remove(0);
 		}
 	}
 	
