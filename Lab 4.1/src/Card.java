@@ -1,5 +1,5 @@
 
-public class Cards {
+public class Card {
 
 	String rank;
 	String suit;
@@ -27,7 +27,7 @@ public class Cards {
 		return pointValue;
 	}
 	
-	public boolean equals(a, b)
+	public boolean equals(Card a, Card b)
 	{
 		if(a.equals(b))
 		{
@@ -38,6 +38,6 @@ public class Cards {
 	
 	public String toString()
 	{
-		return card;
+		return rank + " of " + suit + " (" + pointValue + ")";
 	}
 }

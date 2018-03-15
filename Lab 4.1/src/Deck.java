@@ -2,8 +2,8 @@ import java.util.*;
 
 public class Deck {
 
-	ArrayList<Cards> unDealt = new ArrayList<Cards>();
-	ArrayList<Cards> dealt = new ArrayList<Cards>();
+	ArrayList<Card> unDealt = new ArrayList<Card>();
+	ArrayList<Card> dealt = new ArrayList<Card>();
 	
 	public static void deck(String[] rank, String[] suit, int[] pointValue)
 	{
@@ -11,7 +11,7 @@ public class Deck {
 		{
 			for(int y = 0; y < suit.length; y++)
 			{
-				unDealt.add(new Cards(rank[x], suit[y], pointValue[x]));
+				unDealt.add(new Card(rank[x], suit[y], pointValue[x]));
 			}
 		}
 	}
