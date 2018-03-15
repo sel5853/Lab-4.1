@@ -1,35 +1,43 @@
 
 public class Cards {
 
-	String[] rank = new ;
-	String[] 
+	String rank;
+	String suit;
+	int pointValue;
+			
 	public void card(String rank, String suit, int pointValue)
 	{
-		
+		this.rank = rank;
+		this.suit = suit;
+		this.pointValue = pointValue;
 	}
 	
-	public static String rank()
+	public String getRank()
 	{
-		
+		return rank;
 	}
 	
-	public static String suit()
+	public String getSuit()
 	{
-		
+		return suit;
 	}
 	
-	public static int pointValue()
+	public int getPointValue()
 	{
-		
+		return pointValue;
 	}
 	
-	public boolean equals()
+	public boolean equals(a, b)
 	{
-		
+		if(a.equals(b))
+		{
+			return true;
+		}
+		return false;
 	}
 	
 	public String toString()
 	{
-		
+		return ;
 	}
 }
