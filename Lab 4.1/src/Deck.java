@@ -40,7 +40,8 @@ public class Deck {
 		else
 		{
 			return deck.;
-			deck.remove(0);
+			unDealt.remove(0);
+			dealt.add(0, );
 		}
 	}
 	
