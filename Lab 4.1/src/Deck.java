@@ -33,20 +33,33 @@ public class Deck {
 	
 	public Card deal()
 	{
-		if(deck.size() == 0)
+		if(unDealt.size() == 0)
 		{
 			return null;
 		}
 		else
 		{
-			return deck.;
+			dealt.add(unDealt.get(0));
 			unDealt.remove(0);
-			dealt.add(0, );
+			return unDealt.get(0);
 		}
 	}
 	
-	public String shuffle()
+	public void shuffle()
 	{
+		for(int x = 0; x < dealt.size(); x++)
+		{
+			unDealt.add(dealt.get(x));
+			dealt.remove(0);
+		}
 		
+		for(int k = 51; k > 0; k--)
+		{
+			int r = (int)(Math.random() * k + 1);
+			Card a = unDealt.get(k);
+			Card b = unDealt.get(r);
+			unDealt.set(k, b);
+			unDealt.set(r, a);
+		}
 	}
 }

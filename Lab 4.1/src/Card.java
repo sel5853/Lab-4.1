@@ -1,3 +1,7 @@
+/*
+ * Stanley Liang
+ * Lab 4.1 Cards
+ */
 
 public class Card {
 
